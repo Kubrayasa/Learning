@@ -1,0 +1,14 @@
+public static void main (String[] args) 
+
+{
+
+	JFrame f= new JFrame("AD SOYAD");
+	JButton button = new JButton("GÖNDER: ");
+	button.setBounds(100,100,100,30);
+
+	f.add(button);
+	f.setSize(400, 400);
+	f.setLayout(null);
+	f.setVisible(true);
+	//button.addActionListener(new ActionListener());
+	
